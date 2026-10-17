@@ -1,6 +1,7 @@
 import { useForm, FormProvider } from "react-hook-form";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SiderBarDetails from "./Components/SiderBarDetails";
+import '../src/App.css'
 
 function App() {
   const methods = useForm({

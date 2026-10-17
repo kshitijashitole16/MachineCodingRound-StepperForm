@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { useFormContext } from "../Context";
+
 
 import Sidebar from "./SideBar/SideBar";
 import PersonalDetail from "./PersonalDetail";
 import AddressDetails from "./AddressDetails";
 import AccountDetails from "./AccountDetails";
 import Submited from "./Submited";
+import { useFormContext } from "react-hook-form";
 
 const SiderBarDetails = () => {
   const [sideBarOpen, setSideBarOpen] = useState(false);

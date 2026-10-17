@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useFormContext } from "../Context";
+import { useFormContext } from "react-hook-form";
 
 const AccountDetails = ({ setisValid }) => {
   const { watch, setValue } = useFormContext();
